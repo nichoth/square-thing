@@ -28,11 +28,18 @@
          <div class="third" id="sq-expiration-date"></div>
          <div class="third" id="sq-cvv"></div>
          <div class="third" id="sq-postal-code"></div>
-         <button id="sq-creditcard" class="button-credit-card"
-             onclick="onGetCardNonce(event)">Pay $1.00</button>
+         <button id="sq-creditcard" class="button-credit-card">
+             Pay $1.00
+         </button>
        </div> <!-- end #form-container -->
 
           <script type="text/javascript">
+              var el = document.getElementById('sq-creditcard')
+              el.addEventListener('click', function (ev) {
+                  onGetCardNonce(ev)
+              })
+
+
              // Create and initialize a payment form object
              const paymentForm = new SqPaymentForm({
                // Initialize the payment form elements
