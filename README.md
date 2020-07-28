@@ -1,3 +1,13 @@
+
+# square thing
+
+https://developer.squareup.com/docs/payment-form/payment-form-walkthrough
+
+
+---------------------------
+
+
+
 # sqpaymentform-nodejs-starterkit
 
 * Ensure you have npm installed (`npm -v` in your terminal). If not please follow the instructions for your OS: https://www.npmjs.com/get-npm
